@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script src="https://kit.fontawesome.com/0deb7a1be4.js" crossorigin="anonymous"></script>
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="/images/my.png" type="" /> 
+    <link rel="stylesheet" href="css/button.css"  >
+    <title>Muhammad Awais</title>
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--owl slider stylesheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <!-- font awesome style -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+    <style>
+      .main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.up {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.down {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.card1 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 90px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.instagram {
+  margin-top: 1.5em;
+  margin-left: 1.2em;
+  fill: #cc39a4;
+}
+
+.card2 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 90px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.twitter {
+  margin-top: 1.5em;
+  margin-left: -.9em;
+  fill: #03A9F4;
+}
+
+.card3 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 5px 90px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.github {
+  margin-top: -.6em;
+  margin-left: 1.2em;
+}
+
+.card4 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 90px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.discord {
+  margin-top: -.9em;
+  margin-left: -1.2em;
+  fill: #8c9eff;
+}
+
+.card1:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #cc39a4;
+}
+
+.card1:hover .instagram {
+  fill: white;
+}
+
+.card2:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #03A9F4;
+}
+
+.card2:hover .twitter {
+  fill: white;
+}
+
+.card3:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: black;
+}
+
+.card3:hover .github {
+  fill: white;
+}
+
+.card4:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #8c9eff;
+}
+
+.card4:hover .discord {
+  fill: white;
+}
+      table,
+      tr {
+        color: #fefefe;
+      }
+      @media screen and (max-width: 370px) {
+        .subject {
+          display: none;
+        }
+      }
+      .skill-img
+      {
+        border-radius: 100%;
+        height: 200px;
+        width: 200px;
+      }
+      .skill-img2
+      {
+        border-radius: 100%;
+        height: 200px;
+        width: 200px;
+      }
+      .Btn1 {
+        margin-left: 1px;
+        width: 50px;
+        height: 50px;
+        border: none;
+        border-radius: 50%;
+        background-color: rgb(27, 27, 27);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        position: relative;
+        transition-duration: .3s;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.11);
+      }
+      
+      .svgIcon {
+        fill: rgb(214, 178, 255);
+      }
+      
+      .icon2 {
+        width: 18px;
+        height: 5px;
+        border-bottom: 2px solid rgb(182, 143, 255);
+        border-left: 2px solid rgb(182, 143, 255);
+        border-right: 2px solid rgb(182, 143, 255);
+      }
+      
+      .tooltip {
+        position: absolute;
+        right: -105px;
+        opacity: 0;
+        background-color: rgb(12, 12, 12);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition-duration: .2s;
+        pointer-events: none;
+        letter-spacing: 0.5px;
+      }
+      
+      .tooltip::before {
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 10px;
+        background-color: rgb(12, 12, 12);
+        background-size: 1000%;
+        background-position: center;
+        transform: rotate(45deg);
+        left: -5%;
+        transition-duration: .3s;
+      }
+      
+      .Btn1:hover .tooltip {
+        opacity: 1;
+        transition-duration: .3s;
+      }
+      
+      .Btn1:hover {
+        background-color: rgb(150, 94, 255);
+        transition-duration: .3s;
+      }
+      
+      .Btn1:hover .icon2 {
+        border-bottom: 2px solid rgb(235, 235, 235);
+        border-left: 2px solid rgb(235, 235, 235);
+        border-right: 2px solid rgb(235, 235, 235);
+      }
+      
+      .Btn1:hover .svgIcon {
+        fill: rgb(255, 255, 255);
+        animation: slide-in-top 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      }
+      
+      @keyframes slide-in-top {
+        0% {
+          transform: translateY(-10px);
+          opacity: 0;
+        }
+      
+        100% {
+          transform: translateY(0px);
+          opacity: 1;
+        }
+      }
+      
+      
+      
+      
+    </style>
+  </head>
+
+  <body>
+    <div class="hero_area">
+      <div class="hero_bg_box">
+        <div class="bg_img_box">
+          <img src="images/hero-bg.png" alt="" />
+        </div>
+      </div>
+
+      <!-- header section strats -->
+      <header class="header_section">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+            <a class="navbar-brand" href="index.html">
+              <span>Muhammad Awais </span>
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class=""> </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="workexperience.html">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"> About</a>
+                </li>
+                <form class="form-inline"></form>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- end header section -->
+      <!-- slider section -->
+      <section class="slider_section">
+        <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <h1>
+                        WEB <br />
+                        DEVELOPER
+                      </h1>
+                      <p>
+                        Hi I am<b> Muhammad Awais</b> I am a passionate Web Developer
+                        with expertise in JavaScript, HTML, and CSS. With a keen
+                        eye for detail and a commitment to crafting seamless
+                        user experiences, I specialize in bringing dynamic and
+                        interactive websites to life.
+                      </p>
+                      <a download href="/Res/Muhammad Awais cv.pdf">
+                        <button class="Btn1">
+                          <svg class="svgIcon" viewBox="0 0 384 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg>
+                          <span class="icon2"></span>
+                          <span class="tooltip">Download CV</span>
+                       </button>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img
+                        src="/images/my3.png"
+                        style="
+                          width: 65%;
+                          border-radius: 12rem;
+                          border: 2px solid white;
+                        "
+                        alt="Profile Picture"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <h1>
+                        Responsive <br />
+                        Design
+                      </h1>
+                      <p>
+                        I've honed my skills through hands-on projects and
+                        continuous learning, staying up-to-date with the latest
+                        trends and technologies in the field.Whether it's
+                        building responsive and mobile-friendly layouts,
+                        implementing elegant animations and transitions, or
+                        optimizing code for performance and accessibility, I
+                        thrive on turning ideas into reality through clean,
+                        efficient, and scalable code.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img src="/images/slider-img.png" alt="" style="width: 75%"  />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <h1>
+                        Backend <br />
+                        Developer
+                      </h1>
+                      <p>
+                        I'm a versatile software developer with expertise in a
+                        range of programming languages and frameworks. like
+                        (PHP, C++, C#, ASP.NET) With a passion for
+                        problem-solving and a commitment to delivering
+                        high-quality solutions, I specialize in crafting robust
+                        and scalable applications tailored to meet diverse
+                        client needs.
+                      </p>
+                      <div class="btn-box"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img
+                        src="/images/development-4536630_1920.png"
+                        style="width: 65%"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <h1>
+                        IOT <br />
+                        Developer
+                      </h1>
+                      <p>
+                        I'm an IoT developer with a passion for integrating
+                        hardware and software to create innovative solutions for
+                        the connected world. With a strong foundation in both
+                        hardware assembly and software development, I specialize
+                        in building IoT systems that bridge the gap between the
+                        physical and digital realms.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img src="/images/IOT.png" alt="" style="width: 65%" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="carousel-indicators">
+            <li
+              data-target="#customCarousel1"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#customCarousel1" data-slide-to="1"></li>
+            <li data-target="#customCarousel1" data-slide-to="2"></li>
+            <li data-target="#customCarousel1" data-slide-to="3"></li>
+          </ol>
+        </div>
+      </section>
+      <!-- end slider section -->
+    </div>
+
+    <!-- Work experience section -->
+
+    <section class="service_section layout_padding">
+      <div class="service_container">
+        <div class="container">
+          <div class="heading_container heading_center">
+            <h2>Work <span>Experience</span></h2>
+            <p>
+              Driving seamless integration between front-end design and back-end
+              functionality as a skilled web developer and adept database
+              administrator.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box">
+                <div class="img-box">
+                  <img src="/images/pof.png" alt="" />
+                </div>
+                <div class="detail-box">
+                  <h5>POF(Pakistan ordinance factory)</h5>
+                  <p>
+                    I did three months Internship at POF <br />
+                    During my internship at POF as a .NET developer, I honed my
+                    skills in developing robust and scalable web applications,
+                    gaining hands-on experience in C#, ASP.NET, and SQL Server,
+                    while contributing to the company's mission with innovative
+                    solutions.<br />
+                    <br />
+                    <br />
+                    <br />
+                    Time period: 3 Months.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box">
+                <div class="img-box">
+                  <img src="/images/upwork.png" alt="" />
+                </div>
+                <div class="detail-box">
+                  <h5>Front End developer @upwork</h5>
+                  <p>
+                    As a front-end developer on Upwork for one year, I've
+                    delivered dynamic web interfaces using HTML5, CSS3,
+                    JavaScript, and frameworks like ASP.NET.js, My dedication to
+                    crafting visually stunning and user-friendly websites
+                    garnering positive client feedback and fueling my passion
+                    for impactful digital solutions<br />
+                    <br />
+                    <br />
+                    <br />
+                    Time period: 1 year.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box">
+                <div class="img-box">
+                  <img src="/images/drupak logo.png" alt="" />
+                </div>
+                <div class="detail-box">
+                  <h5>Drupak</h5>
+                  <p>
+                    As a full-stack web developer at Drupak, I seamlessly blend
+                    front-end expertise with back-end proficiency. Leveraging
+                    HTML, SCSS, and Tailwind CSS alongside JavaScript for
+                    dynamic front-end experiences, I also harness PHP and MySQL
+                    for robust back-end functionality. My commitment to crafting
+                    cohesive and efficient solutions drives me to deliver
+                    exceptional results that exceed client expectations.<br /><br />
+
+                    From: 12/24/2023 - Still working here
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end work experience  section -->
+
+    <!-- about section -->
+    <section class="about_section layout_padding">
+      <div class="container">
+        <div class="heading_container heading_center">
+          <h2>About <span>ME</span></h2>
+          <p>
+            Building tomorrow's digital landscape, one line of code at a time
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="img-box">
+              <img src="/images/dev.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="detail-box">
+              <h3>Academic Info:</h3>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Degree</th>
+                    <th scope="col">Institute</th>
+                    <th scope="col" class="subject">Subject</th>
+                    <th scope="col">Year</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Matric</td>
+                    <td>Allied School Pindigheb</td>
+                    <td class="subject">General Science</td>
+                    <td>2017</td>
+                  </tr>
+                  <tr>
+                    <td>FCS</td>
+                    <td>Sir Syed college campus 2</td>
+                    <td class="subject">General Science</td>
+                    <td>2019</td>
+                  </tr>
+                  <tr>
+                    <td>BS</td>
+                    <td>University of Wah</td>
+                    <td class="subject">CS(Computer Sceinces)</td>
+                    <td>2023</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about section -->
+
+    <!-- Digital skills section -->
+    <section class="why_section layout_padding">
+      <div class="container">
+        <div class="heading_container heading_center">
+          <h2>Digital<span>Skills</span></h2>
+        </div>
+        <div class="why_container">
+          <div class="box">
+            <div class="img-box">
+              <img src="/images/digital-skills/vscode.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5>VS CODE</h5>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img-box">
+              <img src="/images/digital-skills/visualstudio2022.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5>VISUAL STUDIO 2022</h5>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img-box">
+              <img src="/images/digital-skills/devc++.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5>DEV C++</h5>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img-box">
+              <img src="/images/digital-skills/arduino.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5>Arduino IDE</h5>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img-box">
+              <img src="/images/digital-skills/phpstorm.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5>PHP Storm</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Digital skills section -->
+
+    <!-- My project section -->
+    <section class="team_section layout_padding">
+      <div class="container-fluid">
+        <div class="heading_container heading_center">
+          <h2 class="">My <span> Projects</span></h2>
+        </div>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div>
+                <div class="team_container">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="box">
+                        <div class="img-box">
+                          <img
+                            src="/images/Projects/vccs1.png"
+                            style="height: 130px"
+                            class="img1"
+                            alt=""
+                          />
+                        </div>
+                        <div class="detail-box">
+                          <h5>VCCS(Vehicle customer care)</h5>
+                          <p>FYP</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="box">
+                        <div class="img-box">
+                          <img
+                            src="/images/Projects/to-do-list.png"
+                            class="img1"
+                            style="height: 130px"
+                            alt=""
+                          />
+                        </div>
+                        <div class="detail-box">
+                          <h5>TODO APP</h5>
+                          <p>Test task</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="box">
+                        <div class="img-box">
+                          <img
+                            src="/images/Projects/analogclock.png"
+                            style="height: 130px"
+                            class="img1"
+                            alt=""
+                          />
+                        </div>
+                        <div class="detail-box">
+                          <h5>Analog clock</h5>
+                          <p>Semester project</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="box">
+                        <div class="img-box">
+                          <img
+                            src="/images/Projects/digitalsign.png"
+                            style="height: 130px"
+                            class="img1"
+                            alt=""
+                          />
+                        </div>
+                        <div class="detail-box">
+                          <h5>Digital signature</h5>
+                          <p>Block chain Semester project</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div>
+                <div class="team_container">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="box">
+                        <div class="img-box">
+                          <img
+                            src="/images/Projects/transportmanage2.png"
+                            style="height: 130px"
+                            class="img1"
+                            alt=""
+                          />
+                        </div>
+                        <div class="detail-box">
+                          <h5>Transport Managment</h5>
+                          <p>C# Semester project</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="box">
+                        <div class="img-box">
+                          <img
+                            src="/images/Projects/islamicquotes.png"
+                            style="height: 130px"
+                            class="img1"
+                            alt=""
+                          />
+                        </div>
+                        <div class="detail-box">
+                          <h5>Islamic quotes</h5>
+                          <p>Google chrom extension</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="box">
+                        <div class="img-box">
+                          <img
+                            src="/images/Projects/weatherapp.png"
+                            style="height: 130px"
+                            class="img1"
+                            alt=""
+                          />
+                        </div>
+                        <div class="detail-box">
+                          <h5>Weather App</h5>
+                          <p>WEB semester project</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="box">
+                        <div class="img-box">
+                          <img
+                            src="/images/Projects/busmanagment.png"
+                            style="height: 130px"
+                            class="img1"
+                            alt=""
+                          />
+                        </div>
+                        <div class="detail-box">
+                          <h5>Buses Management</h5>
+                          <p>Asp.net Semester project</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  <!-- end myproject section -->
+
+    <!-- My Skill section -->
+    <section class="team_section layout_padding">
+      <div class="heading_container heading_center">
+        <h2 class="">My <span> Skills</span></h2>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide mt-5 " data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <div class="d-flex " style="margin-bottom: 35px;"> 
+              <div class="col-lg-3 col-sm-6">
+                <div class="box">
+                  <div class="img-box">
+                    <img
+                      class="skill-img"
+                      src="/images/skills/C++.png"
+                      class="img1"
+                      alt=""
+                    />
+                  </div>
+                  <div class="detail-box">
+                    <h5>C++</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="box">
+                  <div class="img-box">
+                    <img
+                      class="skill-img"
+                      src="/images/skills/csharp.png"
+                      class="img1"
+                      alt=""
+                    />
+                  </div>
+                  <div class="detail-box">
+                    <h5>C#</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="box">
+                  <div class="img-box">
+                    <img
+                      class="skill-img"
+                      src="/images/skills/js.png"
+                      class="img1"
+                      alt=""
+                    />
+                  </div>
+                  <div class="detail-box">
+                    <h5>JS (Java Script)</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="box">
+                  <div class="img-box">
+                    <img
+                      class="skill-img"
+                      src="/images/skills/php.png"
+                      class="img1"
+                      alt=""
+                    />
+                  </div>
+                  <div class="detail-box">
+                    <h5>PHP</h5>
+                  </div>
+                </div>
+              </div>
+           </div>
+          </div>
+          <div class="carousel-item">
+           <div class="d-flex " style="margin-bottom: 35px;"  >
+              <div class="col-lg-3 col-sm-6">
+                <div class="box">
+                  <div class="img-box">
+                    <img
+                      class="skill-img"
+                      src="/images/skills/dotnet.png"
+                      class="img1"
+                      alt=""
+                    />
+                  </div>
+                  <div class="detail-box">
+                    <h5>.NET</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="box">
+                  <div class="img-box">
+                    <img
+                      class="skill-img"
+                      src="/images/skills/html.png"
+                      class="img1"
+                      alt=""
+                    />
+                  </div>
+                  <div class="detail-box">
+                    <h5>HTML</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="box">
+                  <div class="img-box">
+                    <img
+                      class="skill-img"
+                      src="/images/skills/css.png"
+                      class="img1"
+                      alt=""
+                    />
+                  </div>
+                  <div class="detail-box">
+                    <h5>CSS</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="box">
+                  <div class="img-box">
+                    <img
+                      class="skill-img"
+                      src="/images/skills/sass.png"
+                      class="img1"
+                      alt=""
+                    />
+                  </div>
+                  <div class="detail-box">
+                    <h5>SCSS</h5>
+                  </div>
+                </div>
+              </div>
+           </div>
+          </div>
+          <div class="carousel-item">
+           <div class="d-flex " style="margin-bottom: 35px;" >
+              <div class="col-lg-3 col-sm-6">
+                <div class="box">
+                  <div class="img-box">
+                    <img
+                      class="skill-img2"
+                      src="/images/skills/tailwind.png"
+                      class="img1"
+                      alt=""
+                    />
+                  </div>
+                  <div class="detail-box">
+                    <h5>Tailwind</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="box">
+                  <div class="img-box">
+                    <img
+                      class="skill-img2"
+                      src="/images/skills/bootstrap.png"
+                      class="img1"
+                      alt=""
+                    />
+                  </div>
+                  <div class="detail-box">
+                    <h5>Bootstrap</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="box">
+                  <div class="img-box">
+                    <img
+                      class="skill-img2"
+                      src="/images/skills/sql.png"
+                      class="img1"
+                      alt=""
+                    />
+                  </div>
+                  <div class="detail-box">
+                    <h5>SQL</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="box">
+                  <div class="img-box">
+                    <img
+                      class="skill-img2"
+                      src="/images/skills/git.png"
+                      class="img1"
+                      alt=""
+                    />
+                  </div>
+                  <div class="detail-box">
+                    <h5>GIT</h5>
+                  </div>
+                </div>
+              </div>
+           </div>
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+  <!-- My skills section end -->
+
+    <!-- My certificate section -->
+    <section class="client_section layout_padding">
+      <div class="container">
+        <div class="heading_container heading_center psudo_white_primary mb_45">
+          <h2>My<span>Certificates</span></h2>
+        </div>
+        <div class="carousel-wrap">
+          <div class="owl-carousel client_owl-carousel">
+            <div class="item">
+              <div class="box">
+                <div class="img-box">
+                  <a download href="/certificates/Web Designing (1).pdf">
+                    <button class="Btn">
+                      <svg class="svgIcon" viewBox="0 0 384 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg>
+                      <span class="icon2"></span>
+                      <span class="tooltip">Download</span>
+                   </button>
+                  </a>
+                </div>
+                <div class="detail-box">
+                  <div class="client_id">
+                    <div class="client_info">
+                      <h6>Web Designing</h6>
+                      <p>UOW (2022)</p>
+                    </div>
+                  </div>
+                  <p>
+                    I am proud to hold web designing certificates from the University of Wah, earned through participation in competitive web designing competitions. These accomplishments showcase my dedication and expertise in crafting engaging and innovative web experiences.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="img-box">
+                  <a download href="/certificates/Quiz competition  (1).pdf">
+                    <button class="Btn">
+                      <svg class="svgIcon" viewBox="0 0 384 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg>
+                      <span class="icon2"></span>
+                      <span class="tooltip">Download</span>
+                   </button>
+                  </a>
+                </div>
+                <div class="detail-box">
+                  <div class="client_id">
+                    <div class="client_info">
+                      <h6>Quiz competition</h6>
+                      <p>Sir Syed college campus 2 (2018)</p>
+                    </div>
+                  </div>
+                  <p>
+                    I am honored to have secured second position in a quiz competition, earning certificates from Sir Syed College. This achievement underscores my passion for knowledge and commitment to excellence in competitive environments, contributing to my well-rounded skill set.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="img-box">
+                  <a download href="/certificates/siyb (1).pdf">
+                    <button class="Btn">
+                      <svg class="svgIcon" viewBox="0 0 384 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg>
+                      <span class="icon2"></span>
+                      <span class="tooltip">Download</span>
+                   </button>
+                  </a>
+                </div>
+                <div class="detail-box">
+                  <div class="client_id">
+                    <div class="client_info">
+                      <h6>SIYB Training workshop  </h6>
+                      <p>UOW (2022)</p>
+                    </div>
+                  </div>
+                  <p>
+                    I have successfully completed the SIYB Training Workshop at the University of Wah, obtaining valuable certificates. This training has equipped me with essential skills and knowledge to excel in entrepreneurial endeavors, further enriching my professional repertoire.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="img-box">
+                  <a download href="/certificates/SEO (2).pdf">
+                    <button class="Btn">
+                      <svg class="svgIcon" viewBox="0 0 384 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg>
+                      <span class="icon2"></span>
+                      <span class="tooltip">Download</span>
+                   </button>
+                  </a>
+                </div>
+                <div class="detail-box">
+                  <div class="client_id">
+                    <div class="client_info">
+                      <h6>SEO</h6>
+                      <p>UOW (2019)</p>
+                    </div>
+                  </div>
+                  <p>
+                    I am proud to have earned a certificate from the University of Wah for completing an SEO workshop. This training has equipped me with advanced skills in search engine optimization, enhancing my ability to drive organic traffic and improve online visibility for businesses.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="img-box">
+                  <a download href="/certificates/Web Designing (1).pdf">
+                    <button class="Btn">
+                      <svg class="svgIcon" viewBox="0 0 384 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg>
+                      <span class="icon2"></span>
+                      <span class="tooltip">Download</span>
+                   </button>
+                  </a>
+                </div>
+                <div class="detail-box">
+                  <div class="client_id">
+                    <div class="client_info">
+                      <h6>WordPress</h6>
+                      <p>UOW (2023)</p>
+                    </div>
+                  </div>
+                  <p>
+                    I am pleased to have received a Wordpress certificate from the University of Wah for my participation in a Workshop. This experience has honed my ability to code efficiently under pressure, showcasing my proficiency in rapid problem-solving and algorithmic thinking
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="img-box">
+                  <a download href="/certificates/POF internship  (1).pdf">
+                    <button class="Btn">
+                      <svg class="svgIcon" viewBox="0 0 384 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg>
+                      <span class="icon2"></span>
+                      <span class="tooltip">Download</span>
+                   </button>
+                  </a>
+                </div>
+                <div class="detail-box">
+                  <div class="client_id">
+                    <div class="client_info">
+                      <h6>POF Internship</h6>
+                      <p>(July/2023 - Sep/2023)</p>
+                    </div>
+                  </div>
+                  <p>
+                    I successfully completed a 3-month internship at POF as a Web Developer and Database Engineer. During this time, I gained hands-on experience in developing and maintaining web applications, as well as managing and optimizing databases. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="img-box">
+                  <a download href="/certificates/Speed programming (1).pdf">
+                    <button class="Btn">
+                      <svg class="svgIcon" viewBox="0 0 384 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg>
+                      <span class="icon2"></span>
+                      <span class="tooltip">Download</span>
+                   </button>
+                  </a>
+                </div>
+                <div class="detail-box">
+                  <div class="client_id">
+                    <div class="client_info">
+                      <h6>Speed Programming</h6>
+                      <p>UOW (2023)</p>
+                    </div>
+                  </div>
+                  <p>
+                    I am pleased to have received a Speed Programming certificate from the University of Wah for my participation in a competition. This experience has honed my ability to code efficiently under pressure, showcasing my proficiency in rapid problem-solving and algorithmic thinking
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end my certificate section -->
+
+    <!-- info section -->
+    <section class="info_section layout_padding2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 info_col">
+            <div class="info_contact">
+              <h4>Address</h4>
+              <div class="contact_link_box">
+                <a href="">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span>Mohala: Resham khan, Khaur city, Tehsel: Pindigheb, District: Attock </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span> Call +92 3312099410 </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <span> muhammadawais034849<br>51435@gmail.com </span>
+                </a>
+              </div>
+            </div>
+            <div class="info_social">
+              <a href="https://www.facebook.com/awaiskhaur?mibextid=LQQJ4d">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/muhammad-awais-9a847b213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.instagram.com/awais_khaur?igsh=bHg0eWlmOGp2eXMx&utm_source=qr">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 info_col">
+            <div class="info_detail">
+              <h4>Info</h4>
+              <p>
+                Proficient in a diverse range of programming languages including C++, C#, and PHP, with a solid understanding of SQL for database management. Skilled in front-end development technologies such as HTML, CSS, and JavaScript, as well as CSS preprocessors like SASS, ensuring comprehensive web development capabilities.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2 mx-auto info_col">
+            <div class="info_link_box">
+              <!-- <h4>Links</h4>
+              <div class="info_links">
+                <a class="active" href="index.html"> Home </a>
+                <a class="" href="about.html"> About </a>
+                <a class="" href="workexperience.html"> Experience </a>
+                <a class="" href="digialskills.html"> Digital Skills </a>
+                <a class="" href="projects.html"> Projects</a>
+              </div>
+            </div> -->
+            <h4>Social  Media</h4>
+            <div class="main">
+              <div class="up">
+                <a href="https://www.instagram.com/awais_khaur?igsh=bHg0eWlmOGp2eXMx&utm_source=qr">
+                  <button class="card1">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="30px" height="30px" fill-rule="nonzero" class="instagram"><g fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8,8)"><path d="M11.46875,5c-3.55078,0 -6.46875,2.91406 -6.46875,6.46875v9.0625c0,3.55078 2.91406,6.46875 6.46875,6.46875h9.0625c3.55078,0 6.46875,-2.91406 6.46875,-6.46875v-9.0625c0,-3.55078 -2.91406,-6.46875 -6.46875,-6.46875zM11.46875,7h9.0625c2.47266,0 4.46875,1.99609 4.46875,4.46875v9.0625c0,2.47266 -1.99609,4.46875 -4.46875,4.46875h-9.0625c-2.47266,0 -4.46875,-1.99609 -4.46875,-4.46875v-9.0625c0,-2.47266 1.99609,-4.46875 4.46875,-4.46875zM21.90625,9.1875c-0.50391,0 -0.90625,0.40234 -0.90625,0.90625c0,0.50391 0.40234,0.90625 0.90625,0.90625c0.50391,0 0.90625,-0.40234 0.90625,-0.90625c0,-0.50391 -0.40234,-0.90625 -0.90625,-0.90625zM16,10c-3.30078,0 -6,2.69922 -6,6c0,3.30078 2.69922,6 6,6c3.30078,0 6,-2.69922 6,-6c0,-3.30078 -2.69922,-6 -6,-6zM16,12c2.22266,0 4,1.77734 4,4c0,2.22266 -1.77734,4 -4,4c-2.22266,0 -4,-1.77734 -4,-4c0,-2.22266 1.77734,-4 4,-4z"></path></g></g></svg>
+                  </button>
+                </a>
+                <a href="">
+                  <button class="card2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="30px" height="30px" class="twitter"><path d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"></path></svg>
+                  </button>
+                </a>
+              </div>
+              <div class="down">
+               <a href="https://github.com/Awais512khaur">
+                  <button class="card3">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px" height="30px" class="github">    <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path></svg>
+                  </button>
+               </a>
+                <a href="https://discord.com/channels/@me">
+                  <button class="card4">
+                    <svg height="30px" width="30px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" class="discord"><path d="M40,12c0,0-4.585-3.588-10-4l-0.488,0.976C34.408,10.174,36.654,11.891,39,14c-4.045-2.065-8.039-4-15-4s-10.955,1.935-15,4c2.346-2.109,5.018-4.015,9.488-5.024L18,8c-5.681,0.537-10,4-10,4s-5.121,7.425-6,22c5.162,5.953,13,6,13,6l1.639-2.185C13.857,36.848,10.715,35.121,8,32c3.238,2.45,8.125,5,16,5s12.762-2.55,16-5c-2.715,3.121-5.857,4.848-8.639,5.815L33,40c0,0,7.838-0.047,13-6C45.121,19.425,40,12,40,12z M17.5,30c-1.933,0-3.5-1.791-3.5-4c0-2.209,1.567-4,3.5-4s3.5,1.791,3.5,4C21,28.209,19.433,30,17.5,30z M30.5,30c-1.933,0-3.5-1.791-3.5-4c0-2.209,1.567-4,3.5-4s3.5,1.791,3.5,4C34,28.209,32.433,30,30.5,30z"></path></svg>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     
+    <!-- end info section -->
+
+    <!-- footer section -->
+    <section class="footer_section">
+      <div class="container">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="https://awaiskhaur.netlify.app/"><b>Muhammad Awais</b></a>
+        </p>
+      </div>
+    </section>
+    <!-- footer section -->
+
+    <!-- jQery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- popper js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap js -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!-- owl slider -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    ></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+    <!-- End Google Map -->
+  </body>
+</html>
+
